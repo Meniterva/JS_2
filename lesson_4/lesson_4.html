@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Задание 1
+
+        console.log('Some text: \'aren\'t\''.replace(/\'/g, '\"'));
+        
+        //Задание 2. Не удалось сделать так, чтобы кавычки менялись везде кроме aren't
+        
+        console.log('Some text: \'aren\'t\''.replace(/\'$/, '\"'));
+
+       
+
+    </script>
+
+        <!--Задание 3. Сделала пока только поля для ввода, после разбора дз буду доделывать--> 
+
+    <form action="#"> 
+            <ul class="personal_data">  
+                <li> Ваше имя <input type="text" placeholder="Ваше имя"  pattern="^[a-z]$"></li><br>
+                <li>Пароль <input type="password" placeholder="Пароль" pattern="^{3,10}$"></li><br>
+                <li>Ваш E-mail <input type="email" placeholder="Ваш E-mail"></li><br>
+                <li>Ваш пол: <br>
+                M<input type="radio" name="pol"> 
+                Ж<input type="radio" name="pol">
+                </li>
+            </ul>
+        </form>
+
+</body>
+</html>
